@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="10:10 AuthorName"
+        android:id="@+id/tvTitle"
+        android:textSize="14sp"
+        android:layout_marginLeft="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:background="@drawable/triangle2"
+            android:layout_gravity="center"></FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="some chat message some chat message"
+            android:id="@+id/tvMessage"
+            android:background="@drawable/chat_message_back"
+            android:textSize="15sp"
+            android:layout_marginRight="20dp"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:padding="5dp" />
+    </LinearLayout>
+
+</LinearLayout>

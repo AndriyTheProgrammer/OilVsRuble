@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color_1">#f6dc70</color>
+    <color name="main_color_2">#f5c364</color>
+    <color name="chat_another">#f6dc70</color>
+    <color name="chat_my">#f5c364</color>
+    <color name="accent">#628c9d</color>
+    <color name="text_col">#212121</color>
+
+
+</resources>
